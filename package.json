@@ -1,0 +1,32 @@
+{
+  "name": "magic-action-types",
+  "version": "1.0.0",
+  "description": "Magical Action Types (for Flux, Redux, etc) Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markalfred/magic-action-types.git"
+  },
+  "keywords": [
+    "flux",
+    "redux",
+    "actions",
+    "types",
+    "action-types"
+  ],
+  "author": "Mark Battersby",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markalfred/magic-action-types/issues"
+  },
+  "homepage": "https://github.com/markalfred/magic-action-types#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.0"
+  }
+}
