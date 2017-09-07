@@ -1,6 +1,6 @@
 {
   "name": "magic-action-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Magical Action Types (for Flux, Redux, etc) Edit",
   "main": "index.js",
   "scripts": {
