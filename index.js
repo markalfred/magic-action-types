@@ -14,12 +14,18 @@
 
  */
 
-const _ = require('lodash/fp');
-
 function createActionTypes(namespace) {
   return new Proxy(
     {},
-    { get: (target, key) => _.pipe(_.compact, _.join('/'))([namespace, key]) }
+    {
+      get: function(target, key) {
+        if (typeof namespace === 'string') {
+          return namespace + '/' + key;
+        } else {
+          return key;
+        }
+      }
+    }
   );
 }
 
