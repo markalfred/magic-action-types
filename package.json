@@ -25,6 +25,6 @@
   "homepage": "https://github.com/markalfred/magic-action-types#readme",
   "dependencies": {},
   "devDependencies": {
-    "mocha": "^6.2.0"
+    "mocha": "^7.0.0"
   }
 }
